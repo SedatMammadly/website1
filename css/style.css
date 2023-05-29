@@ -462,6 +462,9 @@
     .box2-p p{
         width: 90%;
     }
+    .box li a{
+    display: inline-block;
+    }
     .story-img {
         width: 100%;
     }
