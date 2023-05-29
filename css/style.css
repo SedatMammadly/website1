@@ -438,6 +438,7 @@
 }
 
 @media only screen and (max-width:768px) {
+  
     .logo{
         font-size: 20px;
     }
@@ -548,11 +549,19 @@
     .menu>li:not(:last-child) {
         border-bottom: 1px solid #444;
     }
+    .img-flex img{
+        width: 480px;
+        
+    }
+    .resipe-content p{
+        width: 80%;
+    }
 }
 @media only screen and (max-width:400px){
     .main-content{
         width: 80%;
         margin: 0px auto;
+        padding: 149px 28px;
     }
     .main-content h1{
         font-size: 25px;
