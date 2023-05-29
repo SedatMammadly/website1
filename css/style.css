@@ -512,13 +512,14 @@
 
     .menu {
         position: absolute;
-        top: 0;
-        margin-top: 50px;
+        top:83px;
         left: 0;
         flex-direction: column;
         width: 100%;
         justify-content: center;
         align-items: center;
+        margin: 0px auto;
+        overflow-x: hidden;
     }
 
     #menu-toggle~.menu li {
